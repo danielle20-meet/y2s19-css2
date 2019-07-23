@@ -15,5 +15,18 @@ svg {
     position: absolute;
     left: calc(50% - 50px);
     top: calc(50% - 50px);
+    animation:bounce 2s infinite;
+}
+@keyframes bounce{
+        0%{
+            transform: scale(0);
+        }
+        100%{
+            transform: scale(0.5);
+            opacity:1;
+
+        }
+    
+
 }
 
