@@ -1,13 +1,15 @@
 body {
     margin: 0;
+    text-align:center;
 }
 
 h1 {
-    font-size: 42pt;
+    font-size: 24pt;
     font-family: sans-serif;
     text-align: center;
     background-color: blue;
     opacity: .5;
+    margin:0px auto;
 }
 
 p {
@@ -16,6 +18,11 @@ p {
     background-color: lightgreen;
     opacity: .5;
     width: 60%;
+    margin:10px auto;
+    padding:0px 100px 0px 100px;
+
+
+
 }
 
 a {
@@ -24,27 +31,57 @@ a {
     opacity: .5;
 }
 
-span {
-	background-color: yellow;
-    opacity: 1;	
-}
-
 form {
+   
 	height: 200px;
-	width: 400px;
+	width: 500px;
+    padding:0px 0px 0px 0px; 
 	background-color: orange;
-    opacity: .9;	
+    opacity: .9;
+    position:absolute;
+    top:56.5%;
+    right:28%;
 }
 
-input {
-	background-color: purple;
-    opacity: 1;
-}
 
 div {
-	height: 100px;
+	height: 150px;
 	width: 400px;
-	background-color: blue;
+	background-color:#6620D2;
     opacity: .7;
+    color: purple;
+    position:absolute;
+    top:18%;
+    left:10%;
+
     	
+}
+img{
+    margin:auto 100px auto 0px
+}
+span{
+    color:black;
+    position:absolute;
+    top:40%;
+    left:10%;
+    width:340px;
+    padding:0px 0px 0px 0px;
+    text-align:center;
+    background-color:yellow;
+
+}
+div p {
+    position:absolute;
+    top:-7.5%;
+    left:0%;
+    padding:10px 0px 10px 0px;
+}
+input{
+    color:black;
+    position:absolute;
+    top:53%;
+    left:25%;
+    background-color: purple;
+    opacity: 1;
+
 }

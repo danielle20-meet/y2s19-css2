@@ -13,6 +13,20 @@ p {
     font-size: 24pt;
 }
 
-a {
-    color:red;
+a:hover {
+    color:blue;
+}
+#important:hover{
+	background-color: yellow; font-size:40px;
+}
+.less:hover{
+	color:blue;
+}
+#cover:hover{
+	background-color: black:
+	color:white;
+}
+#hid:hover{
+	background-color:blue;
+	display:none;
 }
